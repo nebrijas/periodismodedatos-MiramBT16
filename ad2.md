@@ -45,7 +45,7 @@ Es importante que comprobemos primero que podemos acceder a estos datos, para el
 ### Bucle para obtener los datos
 Creamos un bucle con `for`y `else`
 
-#Código en bruto
+# Código en bruto
 
 ```
 from bs4 import BeautifulSoup
