@@ -15,7 +15,5 @@ Por último disponemos del documento en *csv* en [api-covid19-pandas-plot.csv](h
 
 - Finalmente en la [Actividad Dirigida 4](https://github.com/nebrijas/periodismodedatos-mirambt16/blob/main/ad4.md) analizamos la información de los accidentes de tráfico en la provincia de **Zaragoza**. Para acceder a los datos abiertos y acceder al mapa de la provincia instalamos varias librerías. A través de la [URL]('https://www.zaragoza.es/sede/servicio/transporte/accidentalidad-trafico/accidente.csv?rows=20') de la sede de tráfico de Zaragoza conseguimos obtener los datos de accidentalidad para elaborar los mapas de tráfico.
 Esta actividad cuenta con varios archivos: en el archivo [api-pandas-folium2.ipynb](https://github.com/nebrijas/periodismodedatos-mirambt16/blob/main/api-pandas-folium2.ipynb) encontramos el código completo del *scraping* y la explicación de éste en *Markdown*.
-
 En el documento [api-pandas-folium2.html](https://github.com/nebrijas/periodismodedatos-mirambt16/blob/main/api-pandas-folium2.html) disponemos del código bruto en *HTML*.
-
-Por último disponemos del documento en *csv* en [api-pandas-folium.csv](https://github.com/nebrijas/periodismodedatos-mirambt16/blob/main/api-pandas-folium.csv) 
+Por último disponemos del documento en *csv* en [api-pandas-folium.csv](https://github.com/nebrijas/periodismodedatos-mirambt16/blob/main/api-pandas-folium.csv)
