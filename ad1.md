@@ -4,7 +4,7 @@
 
 ### Un salón, un bar y una clase: así contagia el coronavirus en el aire
 
-Este reportaje científico, publicado por *El País* y realizado por los periodistas Mariano Zafra y Javier Salas, explica de forma detallada y de manera visual **cómo se transmite el coronavirus a través de aerosoles.**
+Este reportaje científico, publicado por [El País](https://elpais.com/) y realizado por los periodistas Mariano Zafra y Javier Salas, explica de forma detallada y de manera visual **cómo se transmite el coronavirus a través de aerosoles.**
 
 El motivo de mi elección se debe a la relevancia social y educativa que este proyecto tuvo en un contexto en el que entender cómo se propagaban los aerosoles de este virus estaba aún por determinar. El miedo, la desinformación y las *fake news* se habían apoderado de la población. Este reportaje **permitió a muchos entender de forma clara** y concisa una parte muy importante de **la transmisión y contagio del COVID-19.**
 
