@@ -2,7 +2,7 @@
 En esta actividad hemos realizado un ejercicio de *Web Scraping* sobre la tabla [El medallero de Tokio 2020](https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/), elaborada por el periódico [El País](https://elpais.com/)
 
 ## Objetivo de la actividad
-Obtener los resultados obtenidos por los **20 mejores países** participantes en los **Juegos Olímpicos de Tokio 2020**, mediante el análisis previo del código en bruto de la URL de dicha tabla. Para ello es necesario la utilziación de técnicas de *Web Scraping* y el uso de códigos y funciones en lenguaje de *Phyton*
+Obtener los resultados obtenidos por los **20 mejores países** participantes en los **Juegos Olímpicos de Tokio 2020**, mediante el análisis previo del código en bruto de la URL de dicha tabla. Para ello es necesario la utilziación de técnicas de *Web Scraping* y el uso de códigos y funciones en lenguaje de *Python*
 
 ## ¿Cómo lo hemos realizado?
 Con la práctica *Scraping* obtenemos de forma automática el contenido de una páginas web a través de su código *HTML*. Gracias al análisis del código en bruto previo, identificamos las principales variables, bucles y acciones a realizar que nos permitirán extraer los datos deseados.  
