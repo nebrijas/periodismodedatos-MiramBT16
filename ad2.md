@@ -1,51 +1,22 @@
 # Actividad dirigida 2
-## Práctica de Web Scraping paso a paso
-Con la práctica *Scraping* obtenemos de forma automática el contenido de una páginas web a través de su código HTML
+En esta actividad hemos realizado un ejercicio de *Web Scraping* sobre la tabla [El medallero de Tokio 2020](https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/), elaborada por el periódico [El País](https://elpais.com/)
 
-## Pasos
-Para realizar esta técnica son necesarios tres pasos básicos
+## Objetivo de la actividad
+Obtener los resultados obtenidos por los **20 mejores países** participantes en los **Juegos Olímpicos de Tokio 2020**, mediante el análisis previo del código en bruto de la URL de dicha tabla. Para ello es necesario la utilziación de técnicas de *Web Scraping* y el uso de códigos y funciones en lenguaje de *Phyton*
 
-**1. Elegir la URL de la página**
+## ¿Cómo lo hemos realizado?
+Con la práctica *Scraping* obtenemos de forma automática el contenido de una páginas web a través de su código *HTML*. Gracias al análisis del código en bruto previo, identificamos las principales variables, bucles y acciones a realizar que nos permitirán extraer los datos deseados.  
 
-**2. Estudiar la estructura de la página**
+Para realizar esta técnica son necesarios tres pasos básicos:
 
-**3. Obtener los datos y tratarlos**
+1. Elegir la *URL* de la página
 
-### Elegir la URL de la página
-Para ello primero será necesario interactuar con la URL elegida a través de librerías que nos permitan cargar páginas web. Estas son `requests`y `BeautifulSoup`
+2. Estudiar la estructura de la página
 
-### Importamos estas librerías
-Con la librería [requests](https://docs.python-requests.org/en/latest/) descargamos el contenido de la página El contenido de la respuesta, el que contiene la página en HTML, será el que pasemos posteriormente a `BeautifulSoup`para generar el árbol de elementos y poder hacer consultas al mismo.
+3. Obtener los datos y tratarlos
 
-Después importamos la librería [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) `BeautifulSoup` El contenido de la página obtenido en el paso anterior será el que utilicemos para crear la «sopa», esto es, el árbol de objetos *Python* que representan al documento *HTML*.
-
-Para ello, hay que crear un objeto de tipo `BeautifulSoup`, al cual pasamos el texto en formato *HTML* y el identificador del *parser* a utilizar
-
-### Definimos URL
-En este caso la URL pertenece a el periódico El País = "https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/"
-
-Es importante que comprobemos primero que podemos acceder a estos datos, para ello primero preguntamos hacemos la consulta. Si los accesos nos devuelven `HTTP 200 Ok`, la respuesta es correcta. Si no, lanzamos la excepción de que no podemos acceder.
-
- ### Realizamos la petición a la web
- Si el estatus code no es `200` no se puede leer la página
-
- ### De requests a Beautiful Soupe
-
- Como hemos mencionado antes tenemos que crear un objeto de tipo `BeautifulSoup()` al cual pasamos el texto en formato *HTML* y el identificador del parser a utilizar
-
- ###  Variables de datos
- Es necesario estudiar la estructura *HTML* de la página para poder obtener los datos, que es el objetivo del *Web Scraping*. Para ello debemos conocer la estructura de la página y una vez conocida, a través de la librería de `BeautifulSoup` podremos ir obteniendo las diferentes estructuras HTML que hay en ellas y recolectando los datos.
-
- Definimos las variables `paises`, `oros`, etc y las identificamos con la función `find_all()`
-
- Como se puede observar, con `find_all` obtendremos los trozos de código necesario para obtener los datos. Con estas funciones podemos ir obteniendo los elementos que nos interesan para obtener los datos que tienen y poder tratarlos.
-
-### Hacemos la pregunta
-
-### Bucle para obtener los datos
-Creamos un bucle con `for`y `else`
-
-# Código en bruto
+## Código en bruto
+En el siguiente apartado encontramos el código utilizado para realizar dicha práctica. También podemos acceder a la explicación de dicho código en sintaxis *Markdown* en el documento [scraping.ipynb](https://github.com/nebrijas/periodismodedatos-mirambt16/blob/main/scraping.ipynb)
 
 ```
 from bs4 import BeautifulSoup
