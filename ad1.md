@@ -1,4 +1,4 @@
-# AD1_Periodismo de Datos II
+# Actividad Dirigida 1
 
 ## Comentario crítico
 
@@ -26,7 +26,7 @@ Si analizamos el código utilizado en el reportaje encontramos varias cosas inte
 
 En esta parte han decidido utilizar determinadas imágenes de fondo para mostrar un texto breve. El bloque de imagen, generalmente utilizado para portadas, actúa más bien como un encabezado que como imagen. De esta manera, la superposición que han elegido para las imágenes crea un interesante efecto de desplazamiento. Esta opción facilita la legibilidad de los textos a la vez que nos permite entender paso a paso, cómo los aerosoles se expanden y contagian en espacios cerrados como discotecas o bares.
 
-El resto de infografías están insertadas con etiqueta <img> en formatos *.gif* y *.jpg*. 
+El resto de infografías están insertadas con etiqueta <img> en formatos *.gif* y *.jpg*.
 Por otro lado, el diseño se adapta perfectamente a todo tipo de pantallas y en especial a la de los móviles, donde la mayoría de los lectores han consumido este reportaje. Los bloques de imagen se mantienen fijos en su oposición y se adaptan a la pantalla al igual que el resto de infografías. Con lo que la claridad de la información no pierde relevancia, ni se ve alterada en ningún momento.
 
 Utilizan el atributo “srcset”, lo que permite cargar las imágenes del reportaje de distinto tamaño en responsive y optimizar los tiempos de carga, mejorando la navegación del usuario.
